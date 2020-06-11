@@ -10,6 +10,7 @@ function App() {
         <Dinner fruitName="Banana" vegName="Spinach"/>
         <Dinner fruitName="Strawberry" vegName="Potato"/>
         <Dinner fruitName="Strawberry" vegName="Potato"/>
+        <Dinner fruitName="Strawberry" vegName="Potato"/>
       </header>
     </div>
   );
