@@ -30,14 +30,16 @@ jobs:
       uses: Borales/actions-yarn@v2.3.0
       with:
         # Yarn command
-        cmd: 
-          install
-    - name: Build
+        cmd: install  #npm install / yarn install
+          
+
+
+    - name:  Createing build
       run: yarn build
     
     - name: Install Surge
       run: npm install -g surge
     
     -name: Deploying at Surge
-     run: surge ./build http://atta_class0003.surge.sh/  --token ${{secrets.SURGE_TOKEN3}}
+     run: surge ./build http://atta_reactclass3.surge.sh/  --token ${{secrets.SURGE_TOKEN3}}
 
