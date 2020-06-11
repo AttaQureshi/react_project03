@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <Dinner fruitName="Apple" vegName="Onion"/>
-        <Dinner fruitName="Banana"/>
+        <Dinner fruitName="Banana" vegName="Spinach"/>
       </header>
     </div>
   );
