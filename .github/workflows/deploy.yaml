@@ -39,5 +39,5 @@ jobs:
       run: npm install -g surge
     
     -name: Deploying at Surge
-     run: surge ./build http://atta_reactbaseapp.surge.sh/  --token ${{secrets.SURGE_TOKEN}}
+     run: surge ./build http://atta_class0003.surge.sh/  --token ${{secrets.SURGE_TOKEN3}}
 
