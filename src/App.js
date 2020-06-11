@@ -8,6 +8,7 @@ function App() {
       <header className="App-header">
         <Dinner fruitName="Apple" vegName="Onion"/>
         <Dinner fruitName="Banana" vegName="Spinach"/>
+        <Dinner fruitName="Strawberry" vegName="Potato"/>
       </header>
     </div>
   );
